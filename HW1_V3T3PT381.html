@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+
+    <style>
+        .table{
+            width: 500px;
+            height: 5000px;
+            padding: 20px;
+            background-color: #f2f2f2;
+            margin: 5% auto;
+        }
+        #firstname{width: 400px;
+        margin-top: 10px;
+        }
+        #lastname{width: 400px;
+        margin-top: 10px;
+        }
+        #country{width: 400px;
+        margin-top: 10px;
+        }
+        .submit{
+        background-color: green;}
+
+    </style>
+</head>
+<body>
+    <div class="table">
+        <form action="work">
+            <label for="firstname">First Name</label> <br> <br>
+            <input type="text" id="firstname" placeholder= "Your First Name" required> <br> <br>
+
+            <label for="lastname">LasttName</label> <br> 
+            <input type="text" id="lastname" placeholder= " Your Last Name.." required> <br> <br>  
+            
+            <label for="Country">Country</label> <br> <br>
+
+            <select id="country" name="country"> <br> <br> 
+                <option value="Albania">Albania</option>
+                <option value="Algeria">Algeria</option>
+                <option value="Angola">Angola</option>
+                <option value="Armenia">Armenia</option>
+                <option value="Australia">Australia</option>
+                <option value="Austria">Austria</option>
+                <option value="Bangladesh">Bangladesh</option>
+                <option value="Barbados">Barbados</option>
+                <option value="Ghana">Ghana</option>
+            </select><br> <br>
+
+            <label for="Subject">Subject</label> <br> <br>
+            <textarea name="subject" id="subject" cols="20" rows="10" placeholder="write something"></textarea><br> <br>
+
+            <button class="submit">Submit</button> <br> <br>
+        </form>
+        
+    </div>
+</body>
+</html>
